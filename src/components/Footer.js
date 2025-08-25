@@ -52,13 +52,13 @@ const Footer = () => {
           transition={{ delay: 0.3, duration: 0.6 }}
         >
           <p className="text-gray-400 text-lg mb-4">
-            ¡Escanea el código QR para descargar nuestra app!
+           <a href='https://www.jotform.com/app/252341284413652'> ¡Escanea el código QR para descargar nuestra app!</a>
           </p>
-          <img 
+          <a href='https://www.jotform.com/app/252341284413652'> <img 
             src= {qr} 
             alt="Código QR de la App" 
             className="w-32 h-32 mx-auto rounded-lg shadow-lg mb-8 transform hover:scale-105 transition-transform duration-300"
-          />
+          /></a>
         </motion.div>
         <p className="text-gray-500 text-sm">
           &copy; {new Date().getFullYear()} Entre Dulce y Salado. Todos los derechos reservados.
