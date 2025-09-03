@@ -42,3 +42,9 @@ span.bg-clip-text.text-transparent.bg-gradient-to-r.from-amber-600.to-orange-500
 main {
     margin-top: 4em;
 }
+header.fixed.top-0.left-0.right-0.bg-white\/90.backdrop-blur-xl.shadow-2xl.z-50.px-8.transition-all.duration-300.py-4.md\:py-5.border-b-2.border-amber-200 {
+    background: #fff9e1;
+}
+header.fixed.top-0.left-0.right-0.bg-white\/90.backdrop-blur-xl.shadow-2xl.z-50.px-8.transition-all.duration-300.py-2.md\:py-3.border-b.border-amber-100 {
+    background: #fff9e1;
+}
